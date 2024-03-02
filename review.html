@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .wrapper {
+        margin-top: 50px;
+    }
+
+    .wrapper h1 {
+        font-family: fantasy;
+        font-size: 52px;
+        margin-bottom: 150px;
+        font-weight: 50;
+        text-align: center;
+    }
+
+    .user {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .user .user_member {
+        background: #fff;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 300px;
+        padding: 20px;
+        line-height: 20px;
+        color: #8e8b8b;
+        position: relative;
+    }
+
+    .user .user_member h3 {
+        color: #0d85c1;
+        font-size: 26px;
+        margin-top: 50px;
+    }
+
+    .user .user_member p.role {
+        color: #ccc;
+        margin: 12px 0;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .user .user_member .user_img {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #fff;
+    }
+
+    .user .user_member .user_img img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+
+    /* Back button starts  */
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .back-to-home {
+        position: fixed;
+        top: 2rem;
+        left: 2rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        text-decoration: none;
+        transition: 0.2s ease-out;
+    }
+
+    .back-to-home span {
+        color: black;
+        font-size: 3rem;
+        transition: 0.2s ease-out;
+    }
+
+    .back-to-home:hover {
+        background-color: transparent;
+    }
+
+    .back-to-home:hover span {
+        transform: translateY(-4px);
+    }
+
+    /* Back button ends */
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<title>User Review | DiagnoseMeNow</title>
+<div class="wrapper">
+    <h1>User-Review</h1>
+    <div class="user">
+        <div class="user_member">
+            <div class="user_img">
+                <img src="/user3.PNG">
+            </div>
+            <h3>Devansh Joshi</h3>
+            <p class="role">Mumbai , India</p>
+            <p>"I've been using this health website for a few months now, and I'm amazed at the wealth of
+                information available here. From comprehensive articles on nutrition to workout routines, it's
+                become my go-to resource for maintaining a healthier lifestyle. The layout is user-friendly, making
+                it easy to navigate and find exactly what I need. Highly recommend!"</p>
+        </div>
+        <div class="user_member">
+            <div class="user_img">
+                <img src="/user1.PNG">
+            </div>
+            <h3>Eshan Vijay</h3>
+            <p class="role">Bangalore , India</p>
+            <p>"This health website is a game-changer! The range of topics covered is impressive - from mental
+                health tips to expert advice on managing chronic conditions. What I love most is the community
+                aspect; the forums and discussions create a supportive environment where I can connect with others
+                facing similar health challenges. It's empowering to have access to such valuable resources and a
+                supportive community all in one place."</p>
+        </div>
+        <div class="user_member">
+            <div class="user_img">
+                <img src="/user2.PNG">
+            </div>
+            <h3>Rose Wood</h3>
+            <p class="role">Delhi , India</p>
+            <p>I stumbled upon this health website while searching for information on managing stress. The articles
+                and tips provided were incredibly helpful! Not only did I find ways to alleviate stress, but the
+                website covers a wide range of health topics, making it my go-to resource for all things related to
+                wellness. The layout is user-friendly, and the information is comprehensive and easy to understand.
+                Highly recommended for anyone seeking reliable health advice.</p>
+        </div>
+    </div>
+</div>
+
+
+
+</head>
+
+<body>
+    <a href="newhome.html" class="back-to-home">
+        <span class="material-symbols-outlined">
+            arrow_back_ios
+        </span>
+    </a>
+</body>
+
+</html>
